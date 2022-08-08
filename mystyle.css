@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500&display=swap');
+
+
+
+
+body{
+    font-family: 'Lato', sans-serif;     
+   
+}
+.main-div{
+
+display: flex;
+
+}
+header .menu{/*parnet*/
+
+  
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+header .menu a{/*childern*/ 
+
+    color: white;
+    background-color: lightgray;
+    width: 150px;   
+    display: block;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    border-radius: 5rem;
+    margin: 1.5rem;
+   
+    
+}
+
+
+.main-div{
+display: flex;
+}
+
+header{
+
+    background-color: blueviolet; 
+    text-align: center; 
+    width: 400px;  
+    color: white;
+    padding-top: 2rem;
+
+
+}
+
+header img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    border: 1px solid; color: black;
+
+}
+
+header .location:hover{
+
+    text-decoration: underline;
+    cursor: pointer;      
+
+}
+
+
+
+header #addBtn:hover{
+
+    border: 1px solid; color: black;
+    width: auto;
+    cursor: pointer;
+}
+       
+main {
+    background-image: url(https://cdn2.vectorstock.com/i/1000x1000/56/16/abstract-business-background-with-blue-dots-wave-vector-35045616.jpg); 
+
+
+
+    padding: 3rem;
+    color: white;
+}
+
+
+main .aboutme{
+
+    text-align: center;
+}
+
+main .biography{
+
+    text-align: center;
+}
+
+main .content1{
+
+    text-align: center;
+}
+
+main .hobbies{
+
+    text-align: center;
+}
+
+main .content2{
+
+    text-align: center;
+}
+
+main .skills{
+
+    text-align: center;
+}
+
+main .content3{
+
+    text-align: center;
+}
+
+.body{ 
+    background-color: aqua;
+}
